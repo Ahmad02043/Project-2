@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Bootstrap Project</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark text-light bg-info">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#"><strong>ARSHA</strong></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" style="color: white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Drop Down
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"
+                      >Deep Drop Down
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Deep Drop Down 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Deep Drop Down 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Deep Drop Down 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Deep Drop Down 4</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Deep Drop Down 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li>
+                <button
+                  class="btn btn-outline-info btn-primary text-light rounded-pill"
+                  type="button"
+                >
+                  Get Started
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1st Section -->
+      <section
+        class="bg-info text-light p-3 d-flex align-items-center text-sm-start"
+      >
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1><strong>Better Solutions For Your Business</strong></h1>
+              <p class="lead my-4">
+                <strong
+                  >We are team of talented designers making websites with
+                  Bootstrap</strong
+                >
+              </p>
+              <button
+                type="button"
+                class="btn btn-lg btn-outline-info btn-primary rounded-pill my-2"
+              >
+                Get Started
+              </button>
+              <!-- <span>
+              <a href="#"
+                ><i style="font-size: 5vh; color: white" class="fa">&#xf144;</i>
+                Watch Video</a
+              >
+            </span> -->
+            </div>
+            <div>
+              <img
+                src="/images/hero-img.png"
+                alt="logo_iamge"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2nd Section -->
+      <section class="bg-dark opacity-50 p-2">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img src="/images/client-1.png" alt="myob" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img src="/images/client-2.png" alt="beimo" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="/images/client-3.png"
+                alt="LifeGroups"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img src="/images/client-4.png" alt="Lilly" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img src="/images/client-5.png" alt="citrus" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center"
+            >
+              <img src="/images/client-6.png" alt="Trustly" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3rd Section -->
+      <section class="bg-dark text-light p-5" id="about">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md d-flex justify-content-center align-items-center pb-5"
+            >
+              <h2>
+                <strong>About US</strong>
+              </h2>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-between">
+            <div class="col-md">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul style="list-style: none">
+                <li>
+                  <i class="bi bi-check2-all fs-3 text-primary"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+                <li>
+                  <i class="bi bi-check2-all fs-3 text-primary"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="bi bi-check2-all fs-3 text-primary"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <button type="button" class="btn btn-lg btn-outline-info">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4th Section -->
+      <section class="bg-dark text-light p-3 text-sm-start">
+        <div class="container my-5">
+          <div class="row justify-content-center align-items-between">
+            <div class="col-md">
+              <h3>
+                He wants to be spared the burden of an architect or nothing
+              </h3>
+              <p>
+                It is important to take care of the patient, to be followed by
+                the doctor, but it is a time of great pain and suffering. Duis
+                or Irure pain in the rebuke
+              </p>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <!-- Accordion-1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                    >
+                      <strong>01</strong>&nbsp Will it not be followed by a was
+                      for but a bed run two?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      The price of the product is very low. Time targeted urn id
+                      volutpat lacus laoreet will not be taken care of pregnant.
+                      Venenatis bed great fringilla urn porttitor rhoncus pain
+                      pure not.
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion-2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                    >
+                      <strong>02&nbsp</strong> Is chocolate the most common
+                      disease now?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion-3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFour"
+                    >
+                      <strong>03&nbsp</strong> Is it a pain to persue a coaching
+                      program?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFour"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                      sagittis orci. Faucibus pulvinar elementum integer enim.
+                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                      tellus pellentesque eu tincidunt. Lectus urna duis
+                      convallis convallis tellus. Urna molestie at elementum eu
+                      facilisis sed odio morbi quis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <img
+                src="/images/2.SD-WAN-Solutions-DKASO.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5th Section -->
+      <section class="bg-info text-light p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img
+                src="/images/3_skills.png"
+                alt="logo_iamge"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md">
+              <h3>
+                They provide the most valuable pleasures, such as bodily
+                pleasures
+              </h3>
+              <p class="lead mt-2">
+                It is important to take care of the patient, to be followed by
+                the doctor, but it is a time of great pain and suffering.
+              </p>
+              <div class="Progress-title mt-2">
+                HTML
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    style="width: 100%"
+                    aria-valuenow="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="Progress-title mt-2">
+                CSS
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                  ></div>
+                </div>
+              </div>
+              <div class="Progress-title mt-2">
+                BOOTSTRAP
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                  ></div>
+                </div>
+              </div>
+              <div class="Progress-title mt-2">
+                PHOTOSHOP
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    style="width: 55%"
+                    aria-valuenow="55"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6th Section -->
+      <section class="bg-dark p-5" id="services">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2>
+              <strong>SERVICES</strong>
+            </h2>
+            <p>
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <div class="row g-3">
+            <div class="col-lg-3 col-md-6 col-sm">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="h3 mb-3">
+                    <i class="bi bi-file-earmark-bar-graph-fill"></i>
+                  </div>
+                  <h3 class="card-title text-primary">Lorem Ipsum</h3>
+                  <p class="card-text">
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="h3 mb-3">
+                    <i class="bi bi-file-earmark-bar-graph-fill"></i>
+                  </div>
+                  <h3 class="card-title text-primary">But to be clear</h3>
+                  <p class="card-text">
+                    Doubts or irure pain in reprimand in pleasure wants to be a
+                    hair of pain
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="h3 mb-3">
+                    <i class="bi bi-file-earmark-bar-graph-fill"></i>
+                  </div>
+                  <h3 class="card-title text-primary">Great Pains</h3>
+                  <p class="card-text">
+                    Unless they are blinded by lust, they do not come forth,
+                    they are in fault who do their duty
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm">
+              <div class="card bg-dark text-light">
+                <div class="card-body mb-3">
+                  <div class="h3">
+                    <i class="bi bi-file-earmark-bar-graph-fill"></i>
+                  </div>
+                  <h3 class="card-title text-primary">No one</h3>
+                  <p class="card-text">
+                    But in truth we both accuse those who are worthy of
+                    flattery, and with just hatred we lead them
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7th Section -->
+      <section class="p-5 bg-info text-light">
+        <div class="container">
+          <div
+            class="row d-md-flex align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-9 text-lg-start">
+              <h3><strong>Call to Action</strong></h3>
+              <p class="lead">
+                Do not be angry with the pain in the reprimand in the pleasure
+                he wants to be a hair from the pain in the hope that there is no
+                breeding. Unless they are blinded by lust, they do not come out;
+                they are in fault who abandon their duties and soften their
+                hearts, that is toil.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <button
+                class="btn btn-lg btn-outline-info btn-primary text-light"
+                href="home"
+                type="button"
+              >
+                Call To Action
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8th Section (Portfolio) -->
+      <section class="p-5 bg-dark" id="portfolio">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>PORTFOLIO</strong></h2>
+            <p class="lead">
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <div>
+            <div class="row">
+              <ul
+                class="nav nav-pills mb-3 align-items-center"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active rounded-pill"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                  >
+                    App
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link rounded-pill"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                  >
+                    Card
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link rounded-pill"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                  >
+                    Web
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+              >
+                <div class="row g-3">
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/App_1.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/App_2.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/App_3.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel">
+                <div class="row g-3">
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Card_1.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Card_2.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Card_3.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel">
+                <div class="row g-3">
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Web_1.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Web_2.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <img src="/images/Web_3.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9th Section (Team) -->
+
+      <section class="p-5 bg-info" id="team">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>TEAM</strong></h2>
+            <p class="lead">
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <div class="row g-4">
+            <!-- Card-1 -->
+            <div class="col-lg-6 col-md-12">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/images/team-1.jpg"
+                        class="rounded-circle img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-8">
+                      <h4 class="card-title"><i>Walter White</i></h4>
+                      <p class="pb-3 border-bottom">Chief Executive Officer</p>
+                      <p class="card-text">
+                        I will explain the pleasure of flexibility and repulses
+                        those of pain as if
+                      </p>
+                      <div class="h3 mt-2">
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-linkedin"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="col-lg-6 col-md-12">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/images/team-2.jpg"
+                        class="rounded-circle img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-8">
+                      <h4 class="card-title"><i>Sarah Johnson</i></h4>
+                      <p class="pb-3 border-bottom">Product Manager</p>
+                      <p class="card-text">
+                        Either he will love the greater pleasures, and who will
+                        prepare the present ones to be sent
+                      </p>
+                      <div class="h3 mt-2">
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-linkedin"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="col-lg-6 col-md-12">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/images/team-3.jpg"
+                        class="rounded-circle img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-8">
+                      <h4 class="card-title"><i>William Anderson</i></h4>
+                      <p class="pb-3 border-bottom">CTO</p>
+                      <p class="card-text">
+                        It is easy for anyone to escape from the things that are
+                        corrupt when they want to work
+                      </p>
+                      <div class="h3 mt-2">
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-linkedin"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card-4 -->
+            <div class="col-lg-6 col-md-12">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/images/team-4.jpg"
+                        class="rounded-circle img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-8">
+                      <h4 class="card-title"><i>Amanda Jepson</i></h4>
+                      <p class="pb-3 border-bottom">Accountant</p>
+                      <p class="card-text">
+                        He hates the times of pain, the duties of the duties,
+                        and we accuse him
+                      </p>
+                      <div class="h3 mt-2">
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-linkedin"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10th Section (Pricing) -->
+      <section class="p-5 bg-dark">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>PRICING</strong></h2>
+            <p class="lead">
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <div class="row g-4 mt-3">
+            <!-- Plan-1 -->
+            <div class="col-lg-4">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="card-title text-info ms-5">
+                    <p class="lead">Free Plan</p>
+                    <h1><sup>$</sup>0</h1>
+                    <p>per month</p>
+                  </div>
+                  <div class="card-text my-5">
+                    <ul style="list-style: none">
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>What a
+                        coaching of life
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>Not even
+                        the price of Feugiat nisl
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>No one
+                        would use the yard at the weekend
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-x fs-3"></i>A mass of ultricies
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-x fs-3"></i>Massa ultricies mi quis
+                        hendrerit
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="btn btn-lg btn-outline-info rounded-pill mb-5 ms-5"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Plan-2 -->
+            <div class="col-lg-4">
+              <div class="card bg-dark text-light border-info">
+                <div class="card-body">
+                  <div class="card-title text-info ms-5">
+                    <p class="lead">Business Plan</p>
+                    <h1><sup>$</sup>29</h1>
+                    <p>per month</p>
+                  </div>
+                  <div class="card-text my-5">
+                    <ul style="list-style: none">
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>What a
+                        coaching of life
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>Not even
+                        the price of Feugiat nisl
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>No one
+                        would use the yard at the weekend
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-check text-success fs-3"></i>A mass of
+                        ultricies
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-check text-success fs-3"></i>Massa
+                        ultricies mi quis hendrerit
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="btn btn-lg btn-outline-info rounded-pill mb-5 ms-5 active"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Plan-3 -->
+            <div class="col-lg-4">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <div class="card-title text-info ms-5">
+                    <p class="lead">Developer Plan</p>
+                    <h1><sup>$</sup>49</h1>
+                    <p>per month</p>
+                  </div>
+                  <div class="card-text my-5">
+                    <ul style="list-style: none">
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>What a
+                        coaching of life
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>Not even
+                        the price of Feugiat nisl
+                      </li>
+                      <li>
+                        <i class="bi bi-check text-success fs-3"></i>No one
+                        would use the yard at the weekend
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-check text-success fs-3"></i>A mass of
+                        ultricies
+                      </li>
+                      <li class="text-decoration-line-through">
+                        <i class="bi bi-check text-success fs-3"></i>Massa
+                        ultricies mi quis hendrerit
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="btn btn-lg btn-outline-info rounded-pill mb-5 ms-5"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11th Section -->
+      <section class="p-5 bg-info">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>FREQUENTLY ASKED QUESTIONS </strong></h2>
+            <p class="lead">
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <!-- Questions -->
+          <div class="accordion mt-3 p-2" id="questions">
+            <!-- question-1 -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  <i class="bi bi-question-circle text-info fs-5"></i>&nbsp
+                  <span class="text-info fs-5">
+                    Will it not be followed by a was for but a bed run two?
+                  </span>
+                </button>
+              </div>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  <p>
+                    The price of the product is very low. Time targeted urn id
+                    volutpat lacus laoreet will not be taken care of pregnant.
+                    Venenatis bed great fringilla urn porttitor rhoncus pain
+                    pure not.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- question-2 -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  <i class="bi bi-question-circle text-info fs-5"></i>&nbsp
+                  <span class="text-info fs-5">
+                    Is chocolate the most popular disease for now?
+                  </span>
+                </button>
+              </div>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- question-3 -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  <i class="bi bi-question-circle text-info fs-5"></i>&nbsp
+                  <span class="text-info fs-5">Is it a pain in the ass? </span>
+                </button>
+              </div>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Eleifend mi in no place to put any concern for the basketball
+                  arrows of the clinic. For the whole element of the pillow. If
+                  there is no quiver in the diam, the players will receive it.
+                  Rutrum terlus pellentesque eu tincidunt. Bed urn two valley
+                  valley valley. Urna employee at the element of easy football
+                  but hate the disease who
+                </div>
+              </div>
+            </div>
+            <!-- question-4 -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  <i class="bi bi-question-circle text-info fs-5"></i>&nbsp
+                  <span class="text-info fs-5">
+                    Time for the kids to have some salad and a salad?
+                  </span>
+                </button>
+              </div>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  It was a nuisance from the targets but it was an advantage for
+                  the students. It is worth hanging on before. Now, even a smile
+                  is a good way to draw a layer of curtains. It should be a lot
+                  of fans to drink. Pure pregnant who flatters the ugly course.
+                </div>
+              </div>
+            </div>
+
+            <!-- question-5 -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                >
+                  <i class="bi bi-question-circle text-info fs-5"></i>&nbsp
+                  <span class="text-info fs-5"
+                    >The crown of life is pure to adorn the palate. Varius or a
+                    quiver or a turpentine now do you need a computer?
+                  </span>
+                </button>
+              </div>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
+                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
+                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
+                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 12th Section -->
+      <section class="p-5 text-light bg-dark" id="contact">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>CONTACT</strong></h2>
+            <p class="lead">
+              It takes great pains to benefit. His needs result from something
+              that actually drives him away. Let them be what they want. Anyone
+              whom anyone desires. And no one who hinders receives the others.
+              Because he should flee in this office of convenience, which is
+              here.
+            </p>
+          </div>
+          <div class="d-md-flex align-items-center justify-content-center mt-3">
+            <div
+              class="col-md"
+              style="
+                border-top: 3px solid #47b2e4;
+                border-bottom: 3px solid #47b2e4;
+              "
+            >
+              <form action="#" class="align-items-center my-2">
+                <!-- Row-1 -->
+                <div class="row">
+                  <div class="col-md-6 mt-3">
+                    <div class="form-group">
+                      <label for="userName" class="form-label">Your Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="userName"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <div class="form-group">
+                      <label for="userEmail" class="form-label"
+                        >Your email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="userEmail"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Row-2 -->
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="userSubject" class="form-label"
+                        >Subject</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="userSubject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Row-3 -->
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="userMessage" class="form-label"
+                        >Message</label
+                      >
+                      <textarea
+                        id="userMessage"
+                        class="form-control"
+                        rows="10"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <!-- Row-4 -->
+                <div class="row mt-3">
+                  <div class="col-md-12 text-center">
+                    <button class="btn btn-lg btn-info rounded-pill">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13th Section -->
+      <section class="p-5 text-light bg-dark" id="contact">
+        <div class="container">
+          <div class="row text-center text-light">
+            <h2><strong>Join Our Newsletter </strong></h2>
+            <p class="lead">
+              However, if there are many people who do not know what I read,
+              then I will read our great fault
+            </p>
+          </div>
+          <div class="row">
+            <div
+              class="col-md d-flex align-items-center justify-content-center"
+            >
+              <div class="input-group subscrib-input my-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  aria-label="Recipient's username"
+                  aria-describedby="subscribe-button"
+                />
+                <button
+                  class="btn btn-md btn-info rounded-pill"
+                  type="button"
+                  id="subscribe-button"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- footer-top -->
+      <div class="footer-top bg-dark p-5 text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <h3 class="text-info my-2">ARSHA</h3>
+              <font style="vertical-align: inherit">A108 Adam Street</font
+              ><br />
+              <font style="vertical-align: inherit">New York, NY 535022</font
+              ><br />
+              <font style="vertical-align: inherit">United States</font>
+              <br /><br />
+              <font style="vertical-align: inherit"
+                ><strong>Phone:</strong>&nbsp;+1 5589 55488 55</font
+              ><br />
+              <font style="vertical-align: inherit">
+                <strong>Email:</strong>&nbsp;info@example.com</font
+              >
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h6 class="text-info my-2">Useful Links</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white">Home</a>
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >About Us</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Services</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Terms of Service</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h6 class="text-info my-2">Useful Links</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Web Design</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Web Development</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Product Management</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Marketing</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-chevron-right text-primary"></i>
+                  <a href="/" class="text-decoration-none text-white"
+                    >Graphic Design</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h6 class="text-info my-2">Useful Links</h6>
+              <p>
+                <font style="vertical-align: inherit"
+                  >Tomorrow fermentum hate eu feugiat lide par naso tierra videa
+                  magna derita valies
+                </font>
+              </p>
+              <div>
+                <i class="bi bi-twitter text-primary fs-3"></i>
+                <i class="bi bi-facebook text-primary fs-3"></i>
+                <i class="bi bi-instagram text-primary fs-3"></i>
+                <i class="bi bi-linkedin text-primary fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer-bottom -->
+      <div class="footer-bottom bg-dark text-light text-center">
+        <div class="container">
+          <p class="lead">&copy;Copyright 2022 Bootstrap Portfolio</p>
+          <a href="#" class="postion-absolute">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- The End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
